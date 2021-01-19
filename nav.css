@@ -1,0 +1,117 @@
+
+
+body{
+    background-image: url(file.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    scroll-behavior: none;
+
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    cursor: pointer;
+}
+ul li{
+    float: left;
+     width: 252px;
+   height: 80px; 
+    background-color: rgb(1, 92, 145);
+    /* opacity: 0.6; */
+    text-align: center;
+    line-height: 70px;
+    font-size: 33px;
+
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    font-family: 'Comfortaa', cursive;
+}
+ul li a:hover{
+    background-color: rgb(154, 255, 154);
+    color: rgb(59, 59, 59);
+}
+ul li ul li{
+    display: none;
+    
+}
+ul li:hover ul li{
+    display:block;
+    background-color: rgb(1, 92, 145);
+    font-size: 18px;
+    
+}
+.dropdown{
+    display:none;
+}
+ul li ul li:hover .dropdown{
+    position: relative;
+    display:block;
+    
+    top: -70px;
+    left: 252px;
+
+}
+.label{
+    position:relative;
+    top: 400px;
+    font-size: 25px;
+    left: 45px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Prompt', sans-serif;
+
+
+}
+.heading{
+    position: relative;
+    top:360px;
+    color: white;
+    font-style: bold;
+    font-size: 50px;
+    border: 2px solid transparent;
+    width: 430px;
+    left: 45px;
+    font-family: 'Balsamiq Sans', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Prompt', sans-serif;
+
+
+}
+p{
+    position: relative;
+    top:320px;
+    color: white;
+    border: 2px solid transparent;
+    width: 400px;
+    font-size: 25px;
+    left: 45px;
+    text-align: justify;
+    font-family: 'Comfortaa', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Prompt', sans-serif;
+word-spacing: -7px;
+    
+
+}
+#start{
+    font-family: 'Comfortaa', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Prompt', sans-serif;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    width: 150px;
+    word-spacing: 0px;
+    padding: 10px;
+    left:135px;
+    border-radius: 10px;
+}
